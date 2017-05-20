@@ -1,0 +1,207 @@
+/* aboutMe
+   maxwellito.com  */
+
+
+/* Common parts *********************************/
+/************************************************/
+
+* {
+	border: 0;
+	margin: 0;
+}
+
+body {
+	background-color: white;
+	
+	font-family: sans-serif;
+	color: white;
+}
+
+a, a:link, a:hover, a:visited, a:active {
+	color: #FFF;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+#page {
+	width: 100%;
+	max-width: 1198px;
+	margin: auto;
+
+	-moz-box-shadow: 0 0 1em black;
+	-webkit-box-shadow: 0 0 1em black;
+	box-shadow: 0 0 1em black; 
+}
+
+#nav_control {
+	position:fixed; 
+	z-index:999; 
+	right: 10px;
+	
+    padding: 4px 6px;
+
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-bottomright: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.box {
+	background-attachment: fixed;
+	background-position: top center;
+	background-repeat: none;
+}
+
+.bg75 {
+	background: url('images/bgr/gril.png') fixed repeat;
+}
+
+h1 {
+	letter-spacing:-3px;
+	text-transform: uppercase
+}
+
+.ntw_box {
+    margin: auto;
+    text-align: center;
+}
+
+.ntw_link {
+	margin: 7px;
+}
+
+.ntw_link:hover {
+	border-bottom: 2px solid #FFF;
+}
+
+.empty_div, .empty_div_double {
+	height: 1000px;
+}
+
+.empty_div_double {
+	margin-bottom: 1000px;
+}
+
+.text {
+	position: relative;
+	top: 150px;
+	left: 0px;
+
+	border-top: 1px solid white;
+	max-width: 350px;
+	padding: 10px 10px 10px 50px;
+}
+	
+
+
+/* Boxes  ***************************************/
+/************************************************/
+
+/* Parts :
+   1. Intro
+   2. Fake Geek
+   3. A developer
+   4. Probably Creative
+   5. Design Tools
+   6. Curious
+   7. Thanks for watching
+*/
+
+/* Background  **********************************/
+.pt1  {	background-image:url('images/bgr/bgr_1.jpg');}
+.pt2  {	background-image:url('images/bgr/bgr_2.jpg');}
+.pt2b {	background-image:url('images/bgr/bgr_2b.png');}
+.pt3  {	background-image:url('images/bgr/bgr_3.jpg');}
+.pt3b {	background-image:url('images/bgr/bgr_3b.png');}
+.pt4  {	background-image:url('images/bgr/bgr_4.jpg');}
+.pt4b {	background-image:url('images/bgr/bgr_4b.png');}
+.pt5  {	background-image:url('images/bgr/bgr_5.jpg');}
+.pt5b {	background-image:url('images/bgr/bgr_5b.jpg');}
+.pt6  {	background-image:url('images/bgr/bgr_6.jpg');}
+.pt6b {	background-image:url('images/bgr/bgr_6b.png');}
+.pt7  {	background-image:url('images/bgr/bgr_7.jpg');}
+
+
+.pt1_content {
+	max-width: 550px;
+	margin: auto;
+	padding: 70px 0;
+}
+
+.pt1_content p, .pt7_content p  {
+	text-align: center;
+	font-style: italic;
+	font-size: 10pt;
+	font-family: Georgia, serif;
+	color: white;
+	
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.pt1_content p {
+	background: url('images/bgr/gril.png') fixed repeat;
+	border-top: 1px solid white;
+}
+
+#loading_staus {
+	
+}
+
+.pt5_box {
+	position: absolute;
+	height: 1000px;
+    max-width: 1200px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.pt5_00 {	top: 250px;		left: 0px;	 	width: 156px;	height: 480px; }
+.pt5_01 {	top: 100px;		left: 160px; 	width: 36px;	height: 300px; }
+.pt5_02 {	top: 220px;		left: 200px; 	width: 216px;	height: 350px; }
+.pt5_03 {	top: 296px;		left: 420px; 	width: 156px;	height: 382px; }
+.pt5_04 {	top: 110px;		left: 580px; 	width: 196px;	height: 378px; }
+.pt5_05 {	top: 87px;		left: 780px; 	width: 76px;	height: 253px; }
+.pt5_06 {	top: 184px;		left: 860px; 	width: 56px;	height: 398px; }
+.pt5_07 {	top: 285px;		left: 920px; 	width: 116px;	height: 485px; }
+.pt5_08 {	top: 57px;		left: 1040px; 	width: 136px;	height: 375px; }
+.pt5_09 {	top: 231px;		left: 1180px; 	width: 18px;	height: 503px; }
+
+.transition_top {
+	background:url('images/elements/trait_bas.png') top center repeat-x;
+	height: 80px;
+}
+
+.transition_bottom {
+	background:url('images/elements/trait_haut.png') top center repeat-x;
+	height: 70px;
+}
+
+.pt7_content {
+	max-width: 425px;
+	margin: auto;
+	padding: 170px 0;
+}
+
+.pt7_content p a {
+	text-decoration: underline;
+	color: white;
+}
+
+/* Common ***************************************/
+.pt1, .pt2, .pt3, .pt3b, .pt4, .pt4b, .pt5 {
+	padding-bottom: 1000px;
+} 
+
+.pt2, .pt3, .pt3b, .pt4, .pt4b, .pt5, .pt6 {
+	padding-top: 1000px;
+}
+
+
+

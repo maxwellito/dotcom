@@ -1,0 +1,20 @@
+@import "./_variables";
+
+.dark {
+  color: $bright;
+  background-color: $dark;
+  svg {
+    fill: $bright;
+  }
+  header {
+    background: $bright;
+    color: $dark;
+  }
+  .header-logo {
+    fill: $dark;
+  }
+  .diff {
+    background-color: $bright;
+    color: $dark;
+  }
+}

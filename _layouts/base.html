@@ -1,0 +1,33 @@
+<!doctype html>
+<html class="{{ page.theme }}">
+<head>
+	<meta charset="utf-8">
+
+	{% if page.title and page.title != '' %}
+	<title>{{page.title}} | maxwellito.com</title>
+	{% else %}
+	<title>maxwellito.com</title>
+	{% endif %}
+
+	<meta name="description" content="{{page.description}}">
+	<meta name="author" content="maxwellito">
+	<link rel="icon" type="image/png" href="/data/www/favicon.ico" />
+	<link rel="alternate" type="application/rss+xml" title="maxwellito RSS" href="/feed.xml">
+
+	<!-- Mobile viewport -->
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+	<link rel="apple-touch-icon-precomposed" href="/data/www/apple-touch-icon.png">
+
+	<!-- Meta tags for social networks -->
+	{% if page.image %}
+	<meta property="og:image" content="{{ page.image }}"/>
+	{% else %}
+	<meta property="og:image" content="http://www.maxwellito.com/data/www/avatar.jpg"/>
+	{% endif %}
+
+	<link type="text/css" rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+{{ content }}
+</body>
+</html>

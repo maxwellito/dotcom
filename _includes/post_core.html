@@ -1,0 +1,42 @@
+<div class="headline">
+  <h1><a href="{{ include.post.url }}">{{ include.post.title }}</a></h1>
+  <p>{{ include.post.subtitle }}</p>
+</div>
+
+<p>{{ include.post.date | date_to_long_string }}</p>
+<p>{{ include.post.intro }}</p>
+
+{{ include.post.content }}
+
+{% for bloc in include.post.blocs %}
+  {% if bloc.type == 'image' %}
+    <div class="bloc bloc-image">
+    	<img src="{{ bloc.imageLink }}" title="{{ bloc.imageTitle }}" />
+    	{% if bloc.text != "" %}<p class="caption">{{ bloc.text }}</p>{% endif %}
+    </div>
+  {% else if block.type == 'html_16x9' %}
+    <div class="bloc r16-9">
+      <div class="content">
+    	  {{ bloc.text|raw }}
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+
+{% if include.post.quote %}
+<blockquote class="quote">‘‘{{ include.post.quote }}’’</blockquote>
+{% endif %}
+
+{% if include.post.links %}
+<div class="links">
+{% for link in include.post.links %}
+  <div class="link">
+    <svg class="icon"><use xlink:href="#icon-{% if link.icon != '' %}{{ link.icon }}{% else %}globe{% endif %}"></use></svg>
+    <div>
+      <p class="link-title"><a href="{{ link.url }}" title="{{ link.alt }}">{{ link.title }}</a></p>
+      <p class="link-description">{{ link.url }}</p>
+    </div>
+  </div>
+{% endfor %}
+</div>
+{% endif %}
