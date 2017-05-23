@@ -7,7 +7,7 @@ pagination:
 {% for post in paginator.posts %}
 	<div class="post">
 		{% include post_core.html post=post %}
-		<a href="{{ post.url }}" class="diff">permalink</a>
+		<a href="{{ post.url }}" class="tag">permalink</a>
 	</div>
 {% endfor %}
 
