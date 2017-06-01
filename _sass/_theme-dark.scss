@@ -12,6 +12,9 @@
   }
   .header-logo {
     fill: $dark;
+    svg {
+      fill: $dark;
+    }
   }
   .diff {
     background-color: $bright;
