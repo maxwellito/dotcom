@@ -1,12 +1,5 @@
 # maxwellito.com [v3]
 
-Back to basic. Really basic. Funny for a frontend dev.
+My personal website : [maxwellito.com](http://maxwellito.com)
 
-## Pages
-
-- `/` homepage, the main
-- `/about` narcissic shitpost about myself
-- `/history` list of the posts
-- `/posts/{post-title}` blog post
-- `/project/{project-title}` project post
-- `/feed` le RSS
+Built with Jekyll. Ignore grammar mistakes, they are too many.
