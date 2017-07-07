@@ -9,13 +9,12 @@ description: 'My personnal portfolio about artWork, photographies and websites.
   It''s the first version of maxwellito.com. By me, myself and for incomprehensible
   reasons. '
 intro: 'After five thousand lines of code, four months and too many gallons of coffee:
-  maxwellito.com is online!<br>End of 2maxwellito-2010, I had the idea to make my own website,
+  maxwellito.com is online!<br>End of 2009, I had the idea to make my own website,
   a simple place to put all my creations. At this moment my ''web skills'' were
   pretty bad, but I was good in ActionScript 3. So I don''t really had the choice:
   maxwellito.com was going to be in full-Flash. This also was my hidden goal of
   the website: show what I''m able to do in AS3. <br>This version has been online
-  during three years.<br><br><a href="/media/maxwellito_v1" target="_blank">maxwellito.com
-  (v1) is still available here</a><br>'
+  during three years.'
 quote: It's alive! It's aliiiiiiiiive!
 tags: maxwellito website flash as3 web design
 theme: bright
