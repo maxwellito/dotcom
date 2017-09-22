@@ -11,7 +11,7 @@ url: love-letter-to-maintainers
 ---
 This is love letter for people who make Open Source.
 
-For those waking up in the morning and still having faith to wake up after seeing the tsunami of GitHub email notifications.
+For those having faith to wake up after seeing the tsunami of GitHub email notifications.
 
 For those who keep contributing to core modules used everywhere but nobody see.
 
@@ -23,7 +23,7 @@ For those who keep receiving suggestions of features to implement but never see 
 
 For those who keep that passion and enthusiasm day after day, years after years.
 
-For those who sometime bring a solution or fix an issue in less time than any customer service (even if it's not your role).
+For those who sometime bring a solution or fix an issue in less time than any customer service (even if it's not their role).
 
 For those who keep contributing to projects they didn't created.
 
@@ -31,7 +31,7 @@ For those who want to just want to bring a piece of code does things differently
 
 For those who maintain a repo and deal with medium articles bashing their work. Usually written by people who never contribute.
 
-Btw, to all the twats who keep making posts to know which framework is the best: JUST FUCK YOU! ALRIGHT!? This the dev version of who got the biggest. Just be constructive and try to find out for what kind of project which framework is most adapted to. There's no need for more shitposting on the internet.
+*Btw, to all the twats who keep making posts to know which framework is the best: go f!%# yourself, kindly. This the dev version of who got the biggest. Just be constructive and try to find out for what kind of project/context which framework is most adapted to. There's no need for more shitposting on the internet.*
 
 For those who dedicate their life for it and got the courage to say "Stop! It's weekend time, and it's my weekend! And it's gonna be fabulous bitches! See ya on monday open source world!" (and because you damn fuck deserve it!)
 
