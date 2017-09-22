@@ -13,7 +13,7 @@ Here are the consequences of a lack of sleep and massive listening of Justice li
 
 <div class="r16-9">
   <div class="content">
-    <iframe src="https://www.youtube.com/watch?v=1VPFsL9nF2I" width="100%" height="100%" frameborder="0"></iframe>
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1VPFsL9nF2I" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
