@@ -53,15 +53,15 @@ blocs:
   text: Plans for the project page of the new version. Pictures, text, iframes,
     links, tags and a quote.
 links:
-- url: http://en.wikipedia.org/wiki/HTML5
+- url: https://en.wikipedia.org/wiki/HTML5
   title: HTML5 WikiPedia page
   alt: WikiPedia page of HTML5
   icon: wiki
-- url: http://symfony.com/
+- url: https://symfony.com/
   title: Symfony website
   alt: Symfony website
   icon: ''
-- url: http://jquery.com/
+- url: https://jquery.com/
   title: jQuery website
   alt: jQuery website
   icon: ''

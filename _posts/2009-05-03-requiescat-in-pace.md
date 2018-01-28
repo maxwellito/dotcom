@@ -36,7 +36,7 @@ blocs:
   imageTitle: Requiescat in pace draft
   text: My draft, made during my boriiing school lessons. GUILTY!
 links:
-- url: http://www.flickr.com/photos/xxsmax/3494399644
+- url: https://www.flickr.com/photos/xxsmax/3494399644
   title: Flickr page
   alt: Page flickr of the paint Requiescat in pace
   icon: flickr

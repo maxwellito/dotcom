@@ -27,11 +27,11 @@ blocs:
   imageTitle: Asteroid movie
   text: Alone into the ship triangle to cross the universe.
 links:
-- url: http://www.flickr.com/photos/xxsmax/4050791924
+- url: https://www.flickr.com/photos/xxsmax/4050791924
   title: Flickr page
   alt: Flickr page of the Asteroid illustration
   icon: flickr
-- url: http://en.wikipedia.org/wiki/Asteroids_(video_game)
+- url: https://en.wikipedia.org/wiki/Asteroids_(video_game)
   title: Asteroid videogame WikiPedia page
   alt: WikiPedia page of the video game Asteroids
   icon: wiki

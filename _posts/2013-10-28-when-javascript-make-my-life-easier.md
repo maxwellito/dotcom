@@ -10,7 +10,7 @@ theme: bright
 url: when-javascript-make-my-life-easier
 image: "/data/blog/triangulr.jpg"
 ---
-For people who doesn’t know me, I’m a huge fan of vector drawing. A pure Adobe Illustrator addict. These last time I’m working on a pattern I’ve used few months ago : [triangles](http://maxwellito.com/post/triangles).
+For people who doesn’t know me, I’m a huge fan of vector drawing. A pure Adobe Illustrator addict. These last time I’m working on a pattern I’ve used few months ago : [triangles](https://maxwellito.com/post/triangles).
 
 It’s looking nice and simple, but take fuckin ages. It’s like makin doodles, for a simple A4 page, it can take few evenings. And for my current illustration I need a background of random triangles in greyscale. But before to become bored and crazy, I realised it could be funnier to ask the help of JavaScript. Of course the following involve HTML5’s canvas and my favourite library of the moment : [two.js](https://two.js.org/)
 

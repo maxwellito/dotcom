@@ -9,7 +9,7 @@ tags: [code "first language" learn]
 theme: bright
 url: what-computer-language-should-i-learn-first
 ---
-Many times in my life some friends asked me that question because they want to discover and learn coding. It's not easy because you want to give them something which is interesting enough to understand the basics but you also need to find the good way, the good tutorial or interactive website. It's tempting to give them the language you like but might not be easy for them. So, for a long time I mentioned [trytuby.org](http://tryruby.org). This website is really well made, and the team behind it did a very good job. Even if I know nothing about Ruby.
+Many times in my life some friends asked me that question because they want to discover and learn coding. It's not easy because you want to give them something which is interesting enough to understand the basics but you also need to find the good way, the good tutorial or interactive website. It's tempting to give them the language you like but might not be easy for them. So, for a long time I mentioned [trytuby.org](https://tryruby.org). This website is really well made, and the team behind it did a very good job. Even if I know nothing about Ruby.
 
 However, with time I met a lot of developers, a lot of people with different experiences. Some of them were pure geniuses who started to code at a very young age. It made me wonder why I didn't start coding while I was a kid. Ok, the access to the knowledge wasn't as easy as today with internet. But even later at teen age with an internet access something was missing. It wasn't the motivation, or hardware requirements, but understanding the tutorial language.
 

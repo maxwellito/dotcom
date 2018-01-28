@@ -48,15 +48,15 @@ blocs:
   imageTitle: 'Ed Banger xx Gorillaz : Busy-P'
   text: And finally the master Busy-P (aka. Pedro Winter)
 links:
-- url: http://www.flickr.com/photos/xxsmax/sets/72157624323908913/
+- url: https://www.flickr.com/photos/xxsmax/sets/72157624323908913/
   title: Flickr gallery
   alt: 'Flickr set page of the series Ed Banger xx Gorillaz '
   icon: flickr
-- url: http://gorillaz.com/
+- url: https://gorillaz.com/
   title: Gorillaz band website
   alt: Website of the band Gorillaz
   icon: ''
-- url: http://www.edbangerrecords.com/
+- url: https://www.edbangerrecords.com/
   title: Ed Banger Records website
   alt: Website of the label Ed Banger Records
   icon: ''

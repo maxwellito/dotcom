@@ -47,10 +47,10 @@ blocs:
   imageTitle: Apple logo
   text: My final, an Apple...
 - type: html_16x9
-  text: <iframe src="http://player.vimeo.com/video/1647142" width="100%" height="100%"
+  text: <iframe src="https://player.vimeo.com/video/1647142" width="100%" height="100%"
     frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 links:
-- url: http://vimeo.com/1647142
+- url: https://vimeo.com/1647142
   title: Vimeo page
   alt: Vimeo link of Mac OS touch video
   icon: vimeo

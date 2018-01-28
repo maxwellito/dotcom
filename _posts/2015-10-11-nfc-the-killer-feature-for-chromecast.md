@@ -31,7 +31,7 @@ I took the opportunity to illistrate it in stopmotion. That was pretty fun to do
 
 **UPDATE**
 
-This post has been on HackerNews for few hours and some interesting ideas came out from the comments. Mentionning the usage of QR code, the [physical web](https://google.github.io/physical-web/) or [Google Tone](http://googleresearch.blogspot.co.uk/2015/05/tone-experimental-chrome-extension-for.html). Unfortunately none of them can have an impact nowadays.
+This post has been on HackerNews for few hours and some interesting ideas came out from the comments. Mentionning the usage of QR code, the [physical web](https://google.github.io/physical-web/) or [Google Tone](https://googleresearch.blogspot.co.uk/2015/05/tone-experimental-chrome-extension-for.html). Unfortunately none of them can have an impact nowadays.
 
 The QR code is widely popular but not a lot of people use it. An extra app is required to read the tag and the time required to write a simple url can be shorter.
 

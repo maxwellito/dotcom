@@ -47,19 +47,19 @@ blocs:
   imageTitle: Taxi Driver by Martin Scorsese - Propaganda Poster
   text: Taxi Driver<br>by Martin Scorsese<br>1976
 links:
-- url: http://www.behance.net/gallery/Classic-propaganda/1871627
+- url: https://www.behance.net/gallery/Classic-propaganda/1871627
   title: Behance project page
   alt: Behance project page of Classic Propaganda project
   icon: behance
-- url: http://www.flickr.com/photos/xxsmax/sets/72157627190639927/
+- url: https://www.flickr.com/photos/xxsmax/sets/72157627190639927/
   title: Flickr gallery page
   alt: Flickr gallery page of Classic Propaganda page
   icon: flickr
-- url: http://en.wikipedia.org/wiki/Stanley_Kubrick
+- url: https://en.wikipedia.org/wiki/Stanley_Kubrick
   title: Stanley Kubrick WikiPedia page
   alt: WikiPedia page of Stanley Kubrick
   icon: wiki
-- url: http://en.wikipedia.org/wiki/Martin_Scorcese
+- url: https://en.wikipedia.org/wiki/Martin_Scorcese
   title: Martin Scorcese WikiPedia page
   alt: WikiPedia page of Martin Scorcese
   icon: wiki

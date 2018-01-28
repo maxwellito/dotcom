@@ -16,7 +16,7 @@ On Wednesday, a wind of hype got the world of developers around the world. That 
 
 > *Sublime and TextMate offer convenience but only limited extensibility. On the other end of the spectrum, Emacs and Vim offer extreme flexibility, but they aren't very approachable and can only be customized with special-purpose scripting languages.*
 >
-> [Atom Blog](http://blog.atom.io/2014/02/26/introducing-atom.html)
+> [Atom Blog](https://blog.atom.io/2014/02/26/introducing-atom.html)
 
 Like they said, Atom has to be completely modular, anything can be overwritten: this sounds exciting! And a lot of dev already wrote extensions. The software works on Node and Chromium. When you code you can open the console, like in Chrome. Funny, useless but funny.
 

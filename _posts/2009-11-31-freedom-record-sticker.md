@@ -34,7 +34,7 @@ blocs:
   imageTitle: FreedomRecord mockup
   text: Another model which wasn't picked up, so colorless !!
 links:
-- url: http://oneloopmag.tumblr.com/
+- url: https://oneloopmag.tumblr.com/
   title: One Loop Mag
   alt: Musical magazine website of One Loop Mag
   icon: ''

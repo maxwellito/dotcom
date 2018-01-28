@@ -51,7 +51,7 @@ blocs:
   imageTitle: My Lomo Lubitel 2, just wonderfull !!
   text: ''
 links:
-- url: http://en.wikipedia.org/wiki/Lubitel
+- url: https://en.wikipedia.org/wiki/Lubitel
   title: Lubitel WikiPedia page
   alt: WikiPedia page of Lubitel
   icon: wiki

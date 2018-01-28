@@ -40,15 +40,15 @@ blocs:
   imageTitle: itWasMadeFor - Intro
   text: ''
 links:
-- url: http://www.behance.net/gallery/It-was-made-for/1817755
+- url: https://www.behance.net/gallery/It-was-made-for/1817755
   title: Behance project page
   alt: Behance project page of itWasMadeFor
   icon: behance
-- url: http://www.flickr.com/photos/xxsmax/sets/72157624608229591/
+- url: https://www.flickr.com/photos/xxsmax/sets/72157624608229591/
   title: Flickr gallery
   alt: Flickr page of the project itWasMadeFor
   icon: flickr
-- url: http://en.wikipedia.org/wiki/Sponge_Bob
+- url: https://en.wikipedia.org/wiki/Sponge_Bob
   title: Sponge Bob WikiPedia page
   alt: WikiPedia page of Sponge Bob
   icon: wiki

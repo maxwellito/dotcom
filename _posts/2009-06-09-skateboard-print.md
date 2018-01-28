@@ -27,11 +27,11 @@ blocs:
   imageTitle: Skateboard print
   text: Cooler than Fonzy...  no it's impossible.
 links:
-- url: http://www.flickr.com/photos/xxsmax/3608466686
+- url: https://www.flickr.com/photos/xxsmax/3608466686
   title: Flickr page
   alt: Flickr page of the Skateboard print
   icon: flickr
-- url: http://en.wikipedia.org/wiki/Helvetica
+- url: https://en.wikipedia.org/wiki/Helvetica
   title: Helvetica font WikiPedia page
   alt: WikiPedia page of the Helvetica font
   icon: wiki

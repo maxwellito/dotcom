@@ -51,7 +51,7 @@ blocs:
   imageTitle: ''
   text: ''
 links:
-- url: http://www.behance.net/gallery/Never-hide-yourself-behind-a-mask/8404071
+- url: https://www.behance.net/gallery/Never-hide-yourself-behind-a-mask/8404071
   title: Behance project page
   alt: Behance project page of the - Never hide your self behind a mask - illustration
   icon: behance

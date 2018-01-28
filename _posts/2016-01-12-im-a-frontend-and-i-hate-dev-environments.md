@@ -18,7 +18,7 @@ I remember a project where the QA website was build every night and no developer
 
 So, I realised that a simple and silly hack could help me a lot. Let me explain, when you work on the frontend, there's no need to change the backend, you just want to edit the JS, CSS and HTML. So I started to write a Chrome extension to redirect production files to my local files. And it works so well.
 
-Suddenly this little hack made my life so easy, and I tend to use it too often. For example, my Vagrant machine doesn't work and I don't want to spend the day on it, fine I use the dev website of my coworker (http://his-domain-instead-of-mine) and I redirect the javascript my local machine. Also same situation when my coworker is working on an API route and I need to use it for my new feature (because I'm too lazy to create mock data and I prefer to code the real context). This also can work on production websites, which make it easier to debug in some cases.
+Suddenly this little hack made my life so easy, and I tend to use it too often. For example, my Vagrant machine doesn't work and I don't want to spend the day on it, fine I use the dev website of my coworker (https://his-domain-instead-of-mine) and I redirect the javascript my local machine. Also same situation when my coworker is working on an API route and I need to use it for my new feature (because I'm too lazy to create mock data and I prefer to code the real context). This also can work on production websites, which make it easier to debug in some cases.
 
 Now, when somebody ask me to debug a project but the process to set up en environment is a pain, I only ask where can I try the production or dev website, then set up the redirection rules in my extension.
 

@@ -35,11 +35,11 @@ blocs:
   imageTitle: News of the website
   text: News of the website
 links:
-- url: http://maxwellito.com/media/maxwellito_v1
+- url: https://maxwellito.com/media/maxwellito_v1
   title: maxwellito.com (first version)
   alt: First version of maxwellito.com
   icon: ''
-- url: http://www.flickr.com/photos/xxsmax/4335753907
+- url: https://www.flickr.com/photos/xxsmax/4335753907
   title: Flickr page
   alt: maxwellito.com flickr page
   icon: flickr

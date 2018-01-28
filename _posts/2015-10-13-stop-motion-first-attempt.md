@@ -10,7 +10,7 @@ theme: bright
 url: stop-motion-first-attempt
 image: "/data/blog/cheap_stopmotion.jpg"
 ---
-For my [last post](http://maxwellito.tumblr.com/post/130977884131/nfc-the-killer-feature-for-chromecast) I did something I wanted to do in ages: stop motion. But I had nothing to hold my camera in the air and take pictures of my desk. This problem always blocked me to go further. Then I remembered about these old arcade games which are using a mirror inside: "Oh! There's something to try". It ended with the following set up.
+For my [last post](https://maxwellito.tumblr.com/post/130977884131/nfc-the-killer-feature-for-chromecast) I did something I wanted to do in ages: stop motion. But I had nothing to hold my camera in the air and take pictures of my desk. This problem always blocked me to go further. Then I remembered about these old arcade games which are using a mirror inside: "Oh! There's something to try". It ended with the following set up.
 
 ![](/data/blog/cheap_stopmotion.jpg)
 

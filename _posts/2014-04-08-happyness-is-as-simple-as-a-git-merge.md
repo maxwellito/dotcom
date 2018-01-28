@@ -12,7 +12,7 @@ image: "/data/blog/merged.png"
 ---
 ![](/data/blog/merged.png)
 
-Not so long time ago, I've made a [post](http://maxwellito.tumblr.com/post/72909443558/batteries-sold-separately) about a fix I've done on XBMC, about the Wiimote driver. After few months, I could say : "It's working pretty well!". A complete charge can last several weeks.
+Not so long time ago, I've made a [post](https://maxwellito.tumblr.com/post/72909443558/batteries-sold-separately) about a fix I've done on XBMC, about the Wiimote driver. After few months, I could say : "It's working pretty well!". A complete charge can last several weeks.
 
 Even if the 'motto' of the blog is : "I don't give a fork", I decided to do, for once.
 Repo forked, new branch created, changes done and committed : press "Pull request". After some interrogations, another commit, then a squashing (I didn't even knew that on Git) and few weeks. The pull request has been finally accepted.
@@ -39,4 +39,4 @@ Here is some reactions:
 > *My Mom*
 
 Just to finish on a positive message for all the noobs around the world (like me) : don't feel scared to contribute on a repo: it's easy, anybody can spot something, help is always welcome, and it's a good experience.
-But let's be clear between us. Pass your time on [2048](http://gabrielecirulli.github.io/2048/) does not give you the right to say you are a '*tester on a hype open source project*'. No, just no.
+But let's be clear between us. Pass your time on [2048](https://gabrielecirulli.github.io/2048/) does not give you the right to say you are a '*tester on a hype open source project*'. No, just no.

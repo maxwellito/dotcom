@@ -20,4 +20,4 @@ Then I realised JavaScript and canvas could help me. It’s a simple web page wh
 
 Available on GitHub (what a surprise). It’s perfectible, for sure.
 
-[Ghoster demo page](http://maxwellito.github.io/ghoster) (and the [code](https://github.com/maxwellito/ghoster))
+[Ghoster demo page](https://maxwellito.github.io/ghoster) (and the [code](https://github.com/maxwellito/ghoster))

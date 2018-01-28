@@ -38,19 +38,19 @@ blocs:
   imageTitle: The Daft Punk table on iPhone.
   text: The Daft Punk table on iPhone. This was possible only with VNC.
 links:
-- url: http://maxwellito.com/media/daftpunktable
+- url: https://maxwellito.com/media/daftpunktable
   title: Daft Punk table
   alt: Sampler of Harder, Better, Faster, Stronger from Daft Punk
   icon: ''
-- url: http://vimeo.com/9087366
+- url: https://vimeo.com/9087366
   title: Kanye West ft. Daft Punk live at the Grammy on Vimeo
   alt: Video of the performance
   icon: vimeo
-- url: http://www.jazzmutant.com/
+- url: https://www.jazzmutant.com/
   title: Jazz Mutant website
   alt: Jazz Mutant
   icon: ''
-- url: http://en.wikipedia.org/wiki/Daft_Punk
+- url: https://en.wikipedia.org/wiki/Daft_Punk
   title: Daft Punk WikiPedia page
   alt: WikiPadia page of Daft Punk
   icon: wiki

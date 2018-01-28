@@ -35,7 +35,7 @@ blocs:
   imageTitle: Sponge Bob poster
   text: The red planes in the background are important to contrast the picture.
 links:
-- url: http://www.flickr.com/photos/xxsmax/5010423012
+- url: https://www.flickr.com/photos/xxsmax/5010423012
   title: 'Flickr page '
   alt: Flickr page of the Sponge Bob illustration
   icon: flickr

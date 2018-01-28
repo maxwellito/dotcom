@@ -35,11 +35,11 @@ blocs:
   imageTitle: Mushroom badge
   text: Mushroom badge.
 links:
-- url: http://en.wikipedia.org/wiki/Mario
+- url: https://en.wikipedia.org/wiki/Mario
   title: Mario WikiPedia page
   alt: WikiPedia page of Mario
   icon: wiki
-- url: http://www.flickr.com/photos/xxsmax/2078679581
+- url: https://www.flickr.com/photos/xxsmax/2078679581
   title: Flickr page
   alt: Flickr page of the Super Mario Porn illustration
   icon: flickr

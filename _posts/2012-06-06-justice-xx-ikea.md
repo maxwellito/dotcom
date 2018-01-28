@@ -28,7 +28,7 @@ url: justice-xx-ikea
 image: "/data/justice-xx-ikea/cover.jpg"
 blocs:
 - type: html_16x9
-  text: <iframe src="http://player.vimeo.com/video/43520704" width="100%" height="100%"
+  text: <iframe src="https://player.vimeo.com/video/43520704" width="100%" height="100%"
     frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 - type: image
   imageLink: "/data/justice-xx-ikea/001.jpg"
@@ -59,11 +59,11 @@ blocs:
   imageTitle: How to satisfy your justice addiction screenshot
   text: ''
 links:
-- url: http://vimeo.com/43520704
+- url: https://vimeo.com/43520704
   title: Vimeo page
   alt: Vimeo page of the Justice xx IKEA video
   icon: vimeo
-- url: http://www.behance.net/gallery/HOW-TO-Satisfy-your-Justice-addiction/4188447
+- url: https://www.behance.net/gallery/HOW-TO-Satisfy-your-Justice-addiction/4188447
   title: Behance project page
   alt: Behance project page of the Justice xx IKEA project
   icon: behance

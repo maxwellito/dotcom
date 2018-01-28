@@ -50,7 +50,7 @@ blocs:
   imageTitle: Are we scandalous ? (illustration)
   text: Hard to explain, but that is the question.
 links:
-- url: http://www.flickr.com/photos/xxsmax/page1/
+- url: https://www.flickr.com/photos/xxsmax/page1/
   title: Maxwellito flickr page
   alt: Flickr page of maxwellito
   icon: flickr
