@@ -2,7 +2,7 @@
 layout: post
 type: blog
 title: "SpaghettiRank"
-date: 2018-02-21 00:00:00 +0100
+date: 2018-02-21 00:00:00 +0000
 category: code
 description: HackerRank is broken, fix it, here is the code.
 tags: [code interview]
