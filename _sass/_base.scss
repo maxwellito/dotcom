@@ -1,11 +1,11 @@
-@import "./_variables";
+@import './_variables';
 
 @font-face {
-  font-family: "Roboto Mono";
+  font-family: 'Roboto Mono';
   font-weight: 100;
   src: url('../fonts/robotomono-light-webfont.woff2') format('woff2'),
-       url('../fonts/robotomono-light-webfont.woff') format('woff'),
-       url('../fonts/robotomono-light-webfont.ttf') format('truetype');
+    url('../fonts/robotomono-light-webfont.woff') format('woff'),
+    url('../fonts/robotomono-light-webfont.ttf') format('truetype');
 }
 
 /**
@@ -25,7 +25,12 @@ body {
   word-break: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 100;
   letter-spacing: -0.03125em;
 }
@@ -39,7 +44,8 @@ p a {
   text-decoration: underline;
 }
 
-.frame, pre {
+.frame,
+pre {
   max-width: 100%;
   border: $border;
   box-sizing: border-box;
@@ -58,9 +64,10 @@ svg {
  * Generic classes
  *
  */
-.diff, .tag {
+.diff,
+.tag {
   display: inline-block;
-  padding: .25em;
+  padding: 0.25em;
 }
 
 .diff {
@@ -69,8 +76,8 @@ svg {
 }
 
 .tag {
-  font-size: .75em;
-  margin-top: .5rem;
+  font-size: 0.75em;
+  margin-top: 0.5rem;
   border: 1px solid currentColor;
 }
 
@@ -85,18 +92,18 @@ a.diff {
 
 .condensed {
   display: inline-block;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   & > * {
     margin: 0;
   }
   & > * + * {
-    margin-top: .25rem;
+    margin-top: 0.25rem;
   }
 }
 
 .float-container:after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
@@ -111,7 +118,7 @@ a.diff {
  */
 // Header
 header {
-  padding: (2*$margin) $margin $margin;
+  padding: (2 * $margin) $margin $margin;
   margin-bottom: $margin;
   background: $dark;
   color: $bright;
@@ -141,7 +148,7 @@ header {
 }
 
 .caption {
-  margin-top: .25em;
+  margin-top: 0.25em;
   font-style: italic;
 }
 
@@ -190,7 +197,7 @@ blockquote {
     margin: 0;
   }
   .link-description {
-    font-size: .75em;
+    font-size: 0.75em;
     word-break: break-word;
   }
 }
@@ -209,7 +216,7 @@ footer {
 .footer-links {
   text-align: center;
   & > * {
-    margin: .25rem;
+    margin: 0.25rem;
   }
 }
 
@@ -224,5 +231,18 @@ footer {
   }
   .quote {
     font-size: 4rem;
+  }
+}
+
+@media (min-width: 712px) and (max-width: 850px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 850px) {
+  body {
+    margin-left: 10%;
+    margin-right: auto;
   }
 }
