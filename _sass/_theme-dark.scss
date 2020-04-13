@@ -1,4 +1,4 @@
-@import "./_variables";
+@import './_variables';
 
 .dark {
   color: $bright;
@@ -19,5 +19,8 @@
   .diff {
     background-color: $bright;
     color: $dark;
+  }
+  code.language-plaintext.highlighter-rouge {
+    background: $brightshade;
   }
 }

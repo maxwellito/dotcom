@@ -112,6 +112,12 @@ a.diff {
   float: right;
 }
 
+code.language-plaintext.highlighter-rouge {
+  font-family: inherit;
+  font-style: italic;
+  background: $darkshade;
+}
+
 /**
  * Components
  *
