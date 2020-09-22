@@ -10,21 +10,22 @@ theme: bright
 url: life-in-the-uk
 ---
 
-I passed the _Life in the UK_ test. But my journey was to it way more interesting than it seems.
+I passed the _Life in the UK_ test. But my journey to it was way more interesting than it seems.
 
-This test is one of the requirements to get the UK citizenship. The test consists in 24 questions about UK history and modern life. The pass mark is at 18, so 75% right answers to pass. There's an official book to practice, made by the Home Office, where all the questions are made from.
+This test is one of the requirements for UK citizenship application. The test consists in 24 questions about UK history and modern life. The pass mark is at 18, so 75% right answers to pass. There's an official book to practice, made by the Home Office, where all the questions are made from.
 
 History class has never been my cup of tea. As far as I remember I litterally _sucked_ at history. So learning the one of the United Kingdom of Great Britain and Northern Ireland (yes, this is the official name) would be slightly tough.
 
-Knowing some friends who previously passed the test, I asked for their advice. All of them were pretty clear: _crunch practice tests until you never fail_. There are tons of apps/websites with questions sets to practice. However, I wasn't very keen to install random apps on my phone and jump between them to not miss a single question. So I took the problem in a different way.
+Knowing some friends who previously passed the test, I asked for their advice. All of them were pretty clear: _crunch practice tests until you never fail_. There are tons of apps/websites with question sets to practice. However, I wasn't very keen to install random apps on my phone and jump between them to not miss a single question. So I took the problem in a different way.
 
 My plan:
 
 - Looking at the most popular practice apps
 - Download their APK
-- Decompile them (sounds more tough than 'unzip')
+- Decompile them (sounds more badass than 'unzip')
 - Look for the questions source
-- Reformat them all for my own app.
+- Reformat them all for my own app
+- Deal with guilt
 
 It was a very fun night, seriously.
 
@@ -42,6 +43,6 @@ Most the these apps are simply reusing the same set of questions. For those who 
 
 After building a very basic PWA, and many UI tweaks, here is [Life in the UK](https://maxwellito.github.io/life-in-the-uk/) with the [source code](https://github.com/maxwellito/life-in-the-uk). This is very minimalist, no framework/build, the whole logic (HTML+CSS+JS) is in the `index.html` (~340 lines). Thanks to the PWA, it works offline. Also it keep track of the failed questions to make you practice them later.
 
-Feel free to hack it, copy the questions for your own use, make PR to improve the app, sanitise the dataset... or just test it and see how knowledgable you are about Life in the UK.
+Feel free to hack it, copy the questions for your own use, make PR to improve the app, help sanitising the dataset... or just test it and see how knowledgable you are about Life in the UK.
 
-PS: I think I'm ready for my first DMCA takedown, but I don't care I passed my test `¯\_(ツ)_/¯`
+PS: _I think I'm ready for my first DMCA takedown, but I don't care I passed my test_ `¯\_(ツ)_/¯`
