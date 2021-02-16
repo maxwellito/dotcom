@@ -6,7 +6,7 @@ subtitle: It's like the gravel pattern in Japanese gardens but with pixels.
 date: 2021-02-16 00:00:00 +0100
 category: pixel art
 description: Pocket pixel editor made to be shared
-quote: For the first time, I managed to transform randomness to beauty, at every attempts.
+quote: For the first time, I managed to transform randomness into beauty, at every attempts.
 tags: code javascript pixel
 theme: bright
 midgetImage: '/data/graxel/thumbnail.gif'
@@ -49,7 +49,7 @@ From my experience, I think I can explain why on two points:
 - **The symmetry**. It's one of the basic principles to make something beautiful. In this case the symmetry is on 4 axis, probably the maximum reachable with the canvas constraints.
 - **The principles of doodling**. I love doodling on my free time, it's something relaxing and satisfying. From an external point of view it looks difficult but it's the easier form of drawing. Due to the amount of details, you can easily make a mistake, nobody will notice. The secret of doodling resides in the content density. The drawing can be abstract, poor taste or badly drawn, but as long as the space is evenly balanced, the doodling will look good. This is exactly what's happening in this editor. Due to the base pattern, the canvas can be filled at 25% of the space when empty, or 75% when full. Providing an average ratio of 50% with an evenly balanced density. This is perfect.
 
-![/data/graxel/symmetry.png](Steps representing the random workflow)
+![Steps representing the random workflow](/data/graxel/symmetry.png)
 
 > Empty > Fill 1/8 randomly > Clone on all axis
 
