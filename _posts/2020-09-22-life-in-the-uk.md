@@ -14,7 +14,7 @@ I passed the _Life in the UK_ test. But my journey to it was way more interestin
 
 This test is one of the requirements for UK citizenship application. The test consists in 24 questions about UK history and modern life. The pass mark is at 18, so 75% right answers to pass. There's an official book to practice, made by the Home Office, where all the questions are made from.
 
-History class has never been my cup of tea. As far as I remember I litterally _sucked_ at history. So learning the one of the United Kingdom of Great Britain and Northern Ireland (yes, this is the official name) would be slightly tough.
+History class has never been my cup of tea. As far as I remember I never enjoyed studying history. So learning the one of the United Kingdom of Great Britain and Northern Ireland (yes, this is the official name) would be slightly tough.
 
 Knowing some friends who previously passed the test, I asked for their advice. All of them were pretty clear: _crunch practice tests until you never fail_. There are tons of apps/websites with question sets to practice. However, I wasn't very keen to install random apps on my phone and jump between them to not miss a single question. So I took the problem in a different way.
 
