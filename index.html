@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>maxwellito.com</title>
+	<link rel="icon" type="image/png" href="/favicon.svg" />
+    
+	<!-- Mobile viewport -->
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+  
+	<!-- Meta tags for social networks -->
+	<meta name="author" content="maxwellito">
+	<meta name="description" content="Portfolio of a wannabe graphic desginer who end up programming for a living">
+	<meta property="og:image" content="/media/unclassified/website_cover.png"/>
+	
+	<!-- Mastodon -->
+	<meta name="fediverse:creator" content="@maxwellito@mastodon.social">
+
+  <!-- The business -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <script type="module" src="./scripts/theme-switcher.js"></script>
+  <script type="module" src="./scripts/grid-helper.js"></script>
+</head>
+<body>
+  <header class="grid mgrid-size-2 sgrid-size-2" data-fg="#000000" data-bg="#ffffff"> 
+    <img src="./media/unclassified/maxwellito.logo.svg" class="mgrid-x-1 mgrid-y-1 mgrid-width-1 mgrid-height-1 sgrid-x-1 sgrid-y-1 sgrid-width-1 sgrid-height-1" alt="Maxwellito logo" style="filter: invert();">
+    <div class="text keep-in-grid mgrid-x-2 mgrid-y-1 mgrid-width-7 mgrid-height-1 sgrid-x-2 sgrid-y-1 sgrid-width-3 sgrid-height-1">
+      <h1>maxwellito</h1>
+      <p>maker of the useless.<br>
+        <a href="https://github.com/maxwellito">github</a> / 
+        <a href="https://mastodon.social/@maxwellito">mastodon</a>
+      </p>
+    </div>
+    <span class="hey-screen-reader">
+      Welcome to Maxwellito’s portfolio.
+      A messy retrospective of my side projects.
+      This portfolio is very visual, but welcome to this screen-reader-friendly edition.
+      I will try my best to provide additional details for a richer experience.
+      Please remove your shoes at the entrance and make yourself comfortable.
+    </span>
+  </header>
+
+  <!-- minimator -->
+  <div class="grid lgrid-size-11 mgrid-size-11 sgrid-size-17" data-fg="#000000" data-bg="#ffffff"> 
+    <div class="text mgrid-x-1 mgrid-y-2 mgrid-width-3 mgrid-height-2 sgrid-x-1 sgrid-y-2 sgrid-width-3 sgrid-height-2">
+      <h2>minimator</h2>
+      <p>minimalist graphical editor</p>
+      <p>Horizontal lines, vertical lines, quarter circles, and that’s it</p>
+      <p><a href="https://minimator.maxwellito.com" aria-label="Try Minimator" class="card-link">try it</a></p>
+      <p><a href="https://github.com/maxwellito/minimator" aria-label="Minimator source code on GitHub" class="card-link">source code</a></p>
+    </div>
+    <span class="hey-screen-reader">
+      Built in 2021, Minimator is a minimalist graphical editor. It only allows drawing vertical or horizontal lines, or quarter circles, on a grid of dots. 
+      There are no colors; everything is black and white. Only the line thickness is adjustable at the illustration level. These limitations help create beautiful designs. 
+      The editor’s look and feel follow the same spirit: minimalist and monochrome. 
+      The goal was to offer an experience as polished as Procreate: snappy, lag-free, with undo and redo gestures.
+      The editor runs as a Progressive Web App and can be installed for offline use. All creations are stored locally in the browser; nothing is sent to the cloud. The code is available on GitHub.
+      The original idea was to connect it to a 2D plotter to print illustrations as posters, but it never happened.
+    </span>
+    <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAQAAABuW59YAAAAGklEQVR42mNg+I8CgQgM4FwQJJ4LAyA2qskA5uQl2y0HBGsAAAAASUVORK5CYII=" style="image-rendering: pixelated; border: 30px solid; box-sizing: border-box;"class="mgrid-x-2 mgrid-y-1 mgrid-width-1 mgrid-height-1 sgrid-x-4 sgrid-y-2 sgrid-width-1 sgrid-height-1"> -->
+    <img src="./media/minimator/artwork.png" alt="Minimator’s default illustration, shown as a preset when the app is opened for the first time. It demonstrates the editor’s capabilities and features a large doodle filled with random objects: a Polaroid camera, a cat, a bowl of ramen, a New York sign, ivy, and the Minimator logo—a hand holding a pen—at the center." class="mgrid-x-4 mgrid-y-1 mgrid-width-5 mgrid-height-5 sgrid-x-1 sgrid-y-4 sgrid-width-4 sgrid-height-4">
+    <img src="./media/minimator/minimator_label.png" alt="The Minimator label, set in the DM Serif Display font." class="shadowbox shadow-close mgrid-x-6 mgrid-y-6 mgrid-width-3 mgrid-height-1 sgrid-x-2 sgrid-y-1 sgrid-width-3 sgrid-height-1">
+    <video src="./media/minimator/minimator_drawing.mp4" alt="Close-up video of lines being drawn in the editor." class="mgrid-x-1 mgrid-y-5 mgrid-width-2 mgrid-height-3 sgrid-x-1 sgrid-y-14 sgrid-width-2 sgrid-height-3" muted="" autoplay="" loop=""></video>
+    <video src="./media/minimator/minimator_onoff.mp4" alt="Close-up video of the light and dark theme toggle." class="mgrid-x-4 mgrid-y-7 mgrid-width-2 mgrid-height-1 sgrid-x-3 sgrid-y-8 sgrid-width-2 sgrid-height-1" muted="" autoplay="" loop=""></video>
+    <img src="./media/minimator/minimator_icon.png" alt="The Minimator icon, represented by a hand holding a pen." class="mgrid-x-3 mgrid-y-1 mgrid-width-1 mgrid-height-1 sgrid-x-4 sgrid-y-2 sgrid-width-1 sgrid-height-1">
+    <img src="./media/minimator/gaspard.png" alt="Gaspard from the electronic music band Justice, illustrated as a playable card. This is another default illustration for new users." class="mgrid-x-7 mgrid-y-10 mgrid-width-2 mgrid-height-2 sgrid-x-3 sgrid-y-13 sgrid-width-2 sgrid-height-2">
+    <img src="./media/minimator/tools.png" alt="Mosaic of the editor tools: line thickness, home, export, replay, and more, all from the Lucide icon library." class="mgrid-x-6 mgrid-y-9 mgrid-width-3 mgrid-height-1 sgrid-x-1 sgrid-y-12 sgrid-width-3 sgrid-height-1">
+    <img src="./media/minimator/create_card.png" alt="Screenshot of the 'Create a new canvas' screen on the homepage." class="mgrid-x-2 mgrid-y-8 mgrid-width-4 mgrid-height-3 sgrid-x-2 sgrid-y-10 sgrid-width-3 sgrid-height-2">
+    <div class="bounce bounce2 lgrid-hide mgrid-hide sgrid-x-3 sgrid-y-15 sgrid-width-2 sgrid-height-2">
+      <div></div><div></div><div></div><div></div><div></div><div></div>
+    </div>
+  </div>
+
+  <!-- doodling -->
+  <div class="grid mgrid-size-9 sgrid-size-15" data-fg="#114dff" data-bg="#eef0e1"> 
+    <div class="text mgrid-x-4 mgrid-y-2 mgrid-width-3 mgrid-height-1 sgrid-x-2 sgrid-y-1 sgrid-width-3 sgrid-height-1">
+      <h2>doodlin'</h2>
+      <p>keep on and never stop doodlin'</p>
+    </div>
+    <span class="hey-screen-reader">
+      Doodling has always been a guilty pleasure. 
+      There is no particular topic: it can be a quote, my favorite nightclub, or something that happened to me in the last three months.
+      There is something satisfying about filling a surface with many tiny elements that form harmony when seen as a whole.
+      Any format works: large posters with a Posca marker, Procreate on an iPad, or a pile of Post-it notes.
+      As seen in this portfolio, I pushed this hobby far enough to create my own graphical editors. Minimator is a direct product of doodling, with a light hint of OCD.
+    </span>
+    <a class="linked sgrid-x-1 sgrid-y-2 sgrid-width-3 sgrid-height-5 mgrid-x-1 mgrid-y-1 mgrid-width-3 mgrid-height-5" href="https://mastodon.social/@maxwellito/115719226973974352" aria-label="Watch the full-length video of me drawing a gigantic doodle, synced to a catchy A-Trak track.">
+      <video alt="Time-lapse video of me drawing a gigantic doodle in a single evening. The point of view is from the ceiling, looking down at a wooden table where the poster lies. This clip is a sped-up version of a longer cut available on Mastodon." src="./media/doodle/atrak_cut.mp4" muted="" autoplay="" loop=""></video>
+    </a>
+    <img alt="A collection of random items drawn in an American traditional tattoo style." src="./media/doodle/tattoo_board.jpg" class="mgrid-x-2 mgrid-y-7 mgrid-width-3 mgrid-height-2 sgrid-x-1 sgrid-y-11 sgrid-width-2 sgrid-height-2">
+    <img alt="Framed doodle on a desk. A large ‘Don’t forget to go home’ message is written in the center, surrounded by tiny elements inspired by memories from the legendary Berghain club." src="./media/doodle/dont_forget_to_go_home.jpg" class="mgrid-x-6 mgrid-y-5 mgrid-width-3 mgrid-height-4 sgrid-x-2 sgrid-y-7 sgrid-width-3 sgrid-height-4">
+    <img alt="Another doodle made in Procreate around the ‘Don’t flip’ quote, originally related to reducing my phone usage." src="./media/doodle/green_doodle.jpg" class="mgrid-x-7 mgrid-y-2 mgrid-width-2 mgrid-height-2 sgrid-x-3 sgrid-y-12 sgrid-width-2 sgrid-height-3">
+    <div class="bounce bounce1 sgrid-hide mgrid-x-4 mgrid-y-4 mgrid-width-1 mgrid-height-1">
+      <div></div><div></div><div></div><div></div><div></div><div></div>
+    </div>
+  </div>
+
+  <!-- breaklock -->
+  <div data-fg="#f1115e" data-bg="#000000" class="grid lgrid-size-12 mgrid-size-12 sgrid-size-14">
+    <div class="text mgrid-x-2 mgrid-y-2 mgrid-width-3 mgrid-height-2 sgrid-x-1 sgrid-y-1 sgrid-width-3 sgrid-height-2">
+      <h2>BreakLock_</h2>
+      <p>Puzzle game, a hybrid of Mastermind and the Android pattern lock.</p>
+      <p><a href="https://maxwellito.github.io/breaklock" aria-label="Try BreakLock" class="card-link">try it</a></p>
+      <p><a href="https://github.com/maxwellito/breaklock" aria-label="BreakLock source code on GitHub" class="card-link">source code</a></p>
+    </div>
+    <span class="hey-screen-reader">
+      Built in 2017, BreakLock is a mobile-first HTML5 game. 
+      The concept is a hybrid of Mastermind and the Android pattern lock.
+      The project started as a way to entertain myself during my daily commute while building my first Progressive Web App.
+      This technology allowed me to build and distribute a mobile game without submitting it to an app store.
+      The design is highly contrasted and minimalist, which likely contributed to its success.
+      However, Mastermind-style games can be mentally demanding and are not everyone’s cup of tea.
+      On top of that, the game-over screen displayed passive-aggressive comments about the player’s performance, which was a delight to implement.
+      Its modest popularity led to a few contributions and translations.
+      The source code is released under the MIT license and is available on GitHub. 
+    </span>
+    <img src="./media/breaklock/scan_003.jpg" alt="Screenshot of the BreakLock homepage, showing the title and introduction in a very dark interface." class="lgrid-x-1 lgrid-y-2 lgrid-width-3 lgrid-height-2 mgrid-hide sgrid-x-1 sgrid-y-4 sgrid-width-3 sgrid-height-2">
+    <img src="./media/breaklock/002.png" alt="Close-up view of the attempt history during a game. The history shows four attempts, with the last one being a success." class="shadowbox shadow-close mgrid-x-5 mgrid-y-7 mgrid-width-4 mgrid-height-2 sgrid-x-1 sgrid-y-6 sgrid-width-4 sgrid-height-2">
+    <img src="./media/breaklock/covers-01.svg" alt="BreakLock title graphic, used for project headings." class="mgrid-x-1 mgrid-y-5 mgrid-width-4 mgrid-height-2 sgrid-x-2 sgrid-y-3 sgrid-width-3 sgrid-height-1" style="background: var(--color-bg);">
+    <img src="./media/breaklock/icon.svg" alt="BreakLock logo, representing a four-point pattern from the Android lock screen." class="mgrid-x-5 mgrid-y-1 mgrid-width-1 mgrid-height-1 sgrid-x-4 sgrid-y-2 sgrid-width-1 sgrid-height-1">
+    <img src="./media/breaklock/intro.svg" alt="Animated illustration explaining the game mechanics." class="mgrid-x-1 mgrid-y-9 mgrid-width-3 mgrid-height-2 sgrid-x-2 sgrid-y-8 sgrid-width-3 sgrid-height-2" style="background: var(--color-bg); box-sizing: border-box; padding: 42px 32px;">
+    <img src="./media/breaklock/scan_001.jpg" alt="Smartphone held in a hand, displaying the BreakLock home screen with the game options visible." class="mgrid-x-5 mgrid-y-10 mgrid-width-3 mgrid-height-2 sgrid-x-3 sgrid-y-10 sgrid-width-2 sgrid-height-2">
+    <img src="./media/breaklock/scan_002.jpg" alt="Close-up of the BreakLock game screen, with the attempt history at the top and the pattern grid in the center for making new attempts." class="mgrid-x-6 mgrid-y-1 mgrid-width-3 mgrid-height-5 sgrid-x-1 sgrid-y-11 sgrid-width-2 sgrid-height-3">
+  </div>
+
+  <!-- vivus -->
+  <div class="grid lgrid-size-9 mgrid-size-10 sgrid-size-11" data-fg="#5aa8c5" data-bg="#c7eee7"> 
+    <div class="text mgrid-x-6 mgrid-y-3 mgrid-width-3 mgrid-height-2 lgrid-y-2 sgrid-x-1 sgrid-y-2 sgrid-width-3 sgrid-height-2">
+      <h2>vivus</h2>
+      <p>
+        SVG animation library<br>
+        this tiny project became wildly popular and grew out of proportion
+      </p>
+      <p><a href="https://maxwellito.github.io/vivus" aria-label="Vivus demo page" class="card-link">demo page</a></p>
+      <p><a href="https://github.com/maxwellito/vivus" aria-label="Vivus source code on GitHub" class="card-link">source code</a></p>
+    </div>
+    <span class="hey-screen-reader">
+      Built in 2014 and maintained for many years. 
+      This tiny SVG library animates stroke-based SVGs to give the impression that they are being drawn live.
+      Out of the box, the code triggers the animation when the SVG enters the viewport.
+      The project offers different animation types to fit various needs, along with basic playback options.
+      It was heavily inspired by a Codrops article explaining how stroke-dasharray animations work. 
+      However, the original code was not easy to reuse and only worked with path elements. 
+      This became a great opportunity to build a reusable JavaScript library, even if I was also motivated to create something visually impressive for recruiters. 
+      In retrospect, I even demoed the library during the interview for my current job. 
+      After being featured by Codrops in one of their weekly posts, the project suddenly gained a lot of attention.
+      This is how I discovered Hacker News—by seeing Vivus on the homepage.
+      When a project like this becomes popular, there are many learning opportunities, such as publishing npm packages.
+      But there are also downsides to that dopamine hit: providing support and long-term maintenance. The life of an open-source maintainer can be brutal.
+      Not going to lie: having people repackage the library as an Adobe plugin, sell it, and then send their customers to me for support was quite WTF.
+      Filing a regression report on the Chromium bug tracker when the library stopped working in a new Chrome release was, however, a memorable moment.
+      The project kept me busy for a couple of years, and I now enjoy fading into the background.
+      The source code is released under the MIT license and is available on GitHub. 
+    </span>
+    <img src="./media/vivus/hi-there_animated.svg" alt="Typography illustration reading ‘Hi there’, animated using Vivus. All outlines are drawn one after the other." class="mgrid-x-3 mgrid-y-8 mgrid-width-2 mgrid-height-2 lgrid-x-7 lgrid-y-3 sgrid-hide">
+    <img src="./media/vivus/keepondreaming_animated.svg" alt="Handwritten ‘Keep on dreaming’ text animated using Vivus." class="mgrid-x-4 mgrid-y-1 mgrid-width-4 mgrid-height-1 sgrid-x-1 sgrid-y-1 sgrid-width-4 sgrid-height-1">
+    <img src="./media/vivus/vivus_instant_logo_loop.svg" alt="Close-up of the Vivus Instant logo, written in cursive handwriting with a thicker outline, giving it a gooey style." class="mgrid-x-1 mgrid-y-2 mgrid-width-5 mgrid-height-2 sgrid-x-1 sgrid-y-5 sgrid-width-4 sgrid-height-2">
+    <img src="./media/vivus/obturateur_animated.svg" alt="Camera shutter illustration demonstrating a Vivus animation." class="mgrid-x-1 mgrid-y-7 mgrid-width-2 mgrid-height-2 sgrid-x-4 sgrid-y-4 sgrid-width-1 sgrid-height-1">
+    <img src="./media/vivus/polaroid_animated.svg" alt="Polaroid camera illustration demonstrating a Vivus animation." class="mgrid-x-6 mgrid-y-6 mgrid-width-3 mgrid-height-3 sgrid-x-1 sgrid-y-7 sgrid-width-2 sgrid-height-2">
+    <img src="./media/vivus/synth_animated.svg" alt="Synthesizer illustration demonstrating a Vivus animation." class="shadowbox shadow-close mgrid-x-2 mgrid-y-5 mgrid-width-3 mgrid-height-2 sgrid-x-2 sgrid-y-9 sgrid-width-3 sgrid-height-2">
+  </div>
+
+  <!-- tetrispad + webrtc -->
+  <div data-fg="#ec4a4a" data-bg="#f9f93e" class="grid lgrid-size-4 mgrid-size-6 sgrid-size-8"> 
+    <div class="text mgrid-x-2 mgrid-y-5 mgrid-width-3 mgrid-height-1 lgrid-x-1 lgrid-y-3 lgrid-width-1 lgrid-height-1 sgrid-x-2 sgrid-y-5 sgrid-width-3 sgrid-height-1">
+      <h2>tetrispad</h2>
+      <p>Tetris on a Novation Launchpad via WebMIDI</p>
+    </div>
+    <span class="hey-screen-reader">
+      Built in 2017, Tetrispad is a port of Tetris for the Novation Launchpad.
+      This MIDI controller is originally designed for music creation, but its colorful, grid-based interface also lends itself well to playful experiments.
+      The code is a web page running Tetris and using the WebMIDI API to display the game on the device.
+      Coding Tetris quickly makes you aware of many edge cases to handle, especially around the end of the game.
+      The source code is released under the MIT license and is available on GitHub. 
+    </span>
+    <a class="linked mgrid-x-1 mgrid-y-3 mgrid-width-3 mgrid-height-2 sgrid-x-1 sgrid-y-6 sgrid-width-3 sgrid-height-2" href="https://github.com/maxwellito/tetrispad" aria-label="Tetrispad source code on GitHub">
+      <video alt="A Novation Launchpad connected to a laptop. The player uses the arrow keys to control a Tetris game displayed on the Launchpad grid. The game is playable via the link above." src="./media/unclassified/tetrispad_cut.mp4" muted="" autoplay="" loop=""></video>
+    </a>
+    <div class="text mgrid-x-4 mgrid-y-1 mgrid-width-4 mgrid-height-1 sgrid-x-1 sgrid-y-1 sgrid-width-4 sgrid-height-1">
+      <h2>Introduction to WebRTC</h2>
+      <p>stop-motion video explaining the WebRTC protocol</p>
+    </div>
+    <span class="hey-screen-reader">
+      Recorded in 2016, this introduction was intended as a fun exercise to experiment with stop-motion animation. 
+      WebRTC was a fairly new protocol at the time, offering many possibilities, and it felt like a good opportunity to understand it better while building animations.
+      Unsurprisingly, stop motion is time-consuming. Combined with a certain fear of speaking into a microphone, it was not an easy exercise.
+      Many things could be improved, from image quality to narration, but it was a fun experience nonetheless.
+    </span>
+    <a class="linked mgrid-x-5 mgrid-y-2 mgrid-width-4 mgrid-height-2 lgrid-x-5 lgrid-y-1 lgrid-width-4 lgrid-height-2 sgrid-x-2 sgrid-y-2 sgrid-width-3 sgrid-height-2" href="https://www.youtube.com/watch?v=RI5fGsEvDnI" aria-label="Watch the Introduction to WebRTC video on YouTube">
+      <video alt="Short stop-motion clip showing two browsers connecting and celebrating. This is an excerpt from the ‘Introduction to WebRTC’ video linked above." src="./media/unclassified/webrtc_cut.mp4" muted="" autoplay="" loop=""></video>
+    </a>
+  </div>
+
+  <!-- justice xx ikea -->
+  <div class="grid mgrid-size-5 lgrid-size-4 sgrid-size-6" data-fg="#b5bdb2" data-bg="#000000"> 
+    <div class="text mgrid-x-4 mgrid-y-4 mgrid-width-4 mgrid-height-1 lgrid-x-1 lgrid-y-2 lgrid-width-1 lgrid-height-1 sgrid-x-3 sgrid-y-2 sgrid-width-2 sgrid-height-2">
+      <h2>Justice xx IKEA</h2>
+      <p>Cheap reproduction of the second Justice world tour live show</p>
+    </div>
+    <span class="hey-screen-reader">
+      The year was 2012. Justice had just started their second world tour, and this time the light show had been upgraded.
+      During their previous tour, the band was already surrounded by two walls of Marshall amplifiers.
+      This time, however, they were packed with LEDs that were harmonically synchronized with the music.
+      This live performance was a defining moment in my perception of stage design and the possibilities that lighting can offer.
+      One evening, I realized the potential that the newly released Kallax shelves in my bedroom could have.
+      Recreating parts of the live show artificially became a weekend project.
+      No electronics were used: each box was photographed individually at full brightness, then edited to match the music.
+    </span>
+    <img alt="Illustration of the Justice world tour intro, with the illuminated cross lighting up as the crowd moves forward to touch it." src="./media/unclassified/justice.jpg" class="shadowbox shadow-close mgrid-x-2 mgrid-y-2 mgrid-width-2 mgrid-height-3 sgrid-x-1 sgrid-y-1 sgrid-width-2 sgrid-height-3">
+    <a class="linked mgrid-x-5 mgrid-y-1 mgrid-width-4 mgrid-height-3 sgrid-x-2 sgrid-y-4 sgrid-width-3 sgrid-height-2" href="https://vimeo.com/43520704" aria-label="Watch the Justice xx IKEA video on Vimeo">
+      <video alt="IKEA Kallax 4x4 shelves blinking and strobing with light, attempting to reproduce the Justice live show." src="./media/unclassified/justiceikea_cut.mp4" muted="" autoplay="" loop=""></video>
+    </a>
+  </div>
+
+  <!-- triangulart -->
+  <div class="grid lgrid-size-9 mgrid-size-9 sgrid-size-14" data-fg="#176969" data-bg="#a3edd8"> 
+    <div class="text mgrid-x-1 mgrid-y-2 mgrid-width-3 mgrid-height-2 sgrid-x-2 sgrid-y-1 sgrid-width-3 sgrid-height-2">
+      <h2>triangulart</h2>
+      <p>
+        Isometric graphic editor<br>
+        It's like pixel art but with triangles. These are creations made with it.
+      </p>
+      <p><a href="https://maxwellito.github.io/triangulart" aria-label="Try Triangulart" class="card-link">try it</a></p>
+      <p><a href="https://github.com/maxwellito/triangulart" aria-label="Triangulart source code" class="card-link">source code</a></p>
+    </div>
+    <span class="hey-screen-reader">
+      Triangulart is an isometric graphical editor, started in 2014. After spending too much time in Illustrator trying to figure out an easy workflow, I realized I could build my own editor as a WebApp.
+      It was later revamped to offer more features.
+      Each artwork has a canvas size and a grid direction.
+      All data is stored locally, nothing is uploaded to the cloud. Artworks are exportable as SVG.
+      It has two important and challenging features: undo/redo history and a selection tool (which is tricky on a triangle-shaped grid).
+      The interface is not super polished but is sufficient to produce great illustrations.
+      The source code is under MIT licence and available on GitHub. 
+    </span>
+    <img src="./media/triangulart/ROBOT_003.png" alt="Robot illustration made with Triangulart. It represents a gigantic vintage robot with many details and a couple of random items around. The color palette transitions from warm to cool colors." class="mgrid-x-5 mgrid-y-3 mgrid-width-2 mgrid-height-3 sgrid-x-1 sgrid-y-8 sgrid-width-2 sgrid-height-3">
+    <img src="./media/triangulart/ROBOT_002.png" alt="Same robot illustration as before, with a darker color palette." class="mgrid-x-6 mgrid-y-2 mgrid-width-2 mgrid-height-3 sgrid-x-2 sgrid-y-7 sgrid-width-2 sgrid-height-3">
+    <img src="./media/triangulart/ROBOT_001.png" alt="Same robot illustration again, with a purple color palette." class="mgrid-x-7 mgrid-y-1 mgrid-width-2 mgrid-height-3 sgrid-x-3 sgrid-y-6 sgrid-width-2 sgrid-height-3">
+    <img src="./media/triangulart/monsters_001.svg" alt="Isometric doodle of monsters made from triangles. Lots of tiny creatures." class="mgrid-x-4 mgrid-y-6 mgrid-width-2 mgrid-height-3 sgrid-x-3 sgrid-y-10 sgrid-width-2 sgrid-height-3">
+    <img src="./media/triangulart/monsters_002.svg" alt="Another isometric doodle of monsters made from triangles. Lots of tiny creatures." class="mgrid-hide mgrid-x-1 mgrid-y-2 mgrid-width-3 mgrid-height-2 sgrid-x-1 sgrid-y-4 sgrid-width-3 sgrid-height-2">
+    <img src="./media/triangulart/triangulart_logo.svg" alt="Official Triangulart logo forming the letter T, outlined with a structure made of triangles." class="mgrid-x-4 mgrid-y-2 mgrid-width-1 mgrid-height-1 sgrid-x-1 sgrid-y-2 sgrid-width-1 sgrid-height-1">
+    <img src="./media/triangulart/triangulart_logo_alt1.svg" alt="Alternative Triangulart logo representing the letters T R G T in an isometric view." class="mgrid-x-4 mgrid-y-5 mgrid-width-1 mgrid-height-1 sgrid-x-4 sgrid-y-5 sgrid-width-1 sgrid-height-1">
+    <img src="./media/triangulart/triangulart_logo_alt2.svg" alt="Alternative Triangulart logo" class="shadowbox shadow-close mgrid-x-7 mgrid-y-6 mgrid-width-2 mgrid-height-2 sgrid-x-4 sgrid-y-3 sgrid-width-1 sgrid-height-1">
+    <img src="./media/triangulart/squiggle.svg" alt="Gigantic isometric squiggle in blue, red, and yellow. Abstract illustration." class="mgrid-x-1 mgrid-y-5 mgrid-width-3 mgrid-height-3 sgrid-x-1 sgrid-y-12 sgrid-width-2 sgrid-height-2">
+  </div>
+
+  <!-- hexabeat -->
+  <div data-fg="#f6c408" data-bg="#000000" class="grid mgrid-size-10 sgrid-size-15"> 
+    <div class="text mgrid-x-1 mgrid-y-1 mgrid-width-3 mgrid-height-2 sgrid-x-1 sgrid-y-1 sgrid-width-2 sgrid-height-3">
+      <h2>HexaBeat</h2>
+      <p>Music sequencer using code commits to generate music</p>
+      <p><a href="https://maxwellito.github.io/hexabeat" aria-label="Try HexaBeat" class="card-link">try it</a></p>
+      <p><a href="https://github.com/maxwellito/hexabeat" aria-label="HexaBeat source code" class="card-link">source code</a></p>
+    </div>
+    <span class="hey-screen-reader">
+      Built and shipped in 2019, then largely ignored afterward.
+      HexaBeat is an app that uses GitHub commits and passes them through an algorithm of your choice to generate new sequences.
+      The app takes a liveset file as input, which contains groups of sounds and a list of repositories.
+      Based on this, tracks can be added or removed. Each track has its own volume, enable and solo modes, filter, and sequence.
+      Every sequence is a combination of a repository, a commit, and an algorithm. Anybody can use it; it's as easy as scrolling filters on Instagram until you find something you like.
+      All of this happens in a futuristic interface based on a monochrome palette with vibrant yellow accents.
+      For extra fun, the application can be controlled from an Akai MPK Mini, creating new challenges to design a user interface controllable via hardware and remote inputs.
+      This was another attempt to make music and an opportunity to experiment with React and Redux.
+      One goal succeeded, the other didn’t—you can guess which.
+      The source code is under MIT licence and available on GitHub.
+    </span>
+    <img src="./media/hexabeat/hexabeat-logo.svg" alt="HexaBeat logo, letters H and B connected in an isometric view with outlined design." class="mgrid-x-4 mgrid-y-1 mgrid-width-1 mgrid-height-1 lgrid-x-3 lgrid-y-3 sgrid-x-4 sgrid-y-2 sgrid-width-1 sgrid-height-1">
+    <a class="linked mgrid-x-4 mgrid-y-2 mgrid-width-5 mgrid-height-3 sgrid-x-1 sgrid-y-4 sgrid-width-4 sgrid-height-2" href="https://www.youtube.com/watch?v=XbCedvCfd-Y" aria-label="HexaBeat intro video on YouTube">
+      <img alt="White desk on a pitch-black background, with a lamp and an Akai MPK Mini connected to a laptop showing the HexaBeat interface in fullscreen." src="./media/hexabeat/001.jpg">
+    </a>
+    <img src="./media/hexabeat/002.jpg" alt="HexaBeat homescreen. The title uses an extra-wide font and offers many music sets to choose from." class="mgrid-hide mgrid-x-1 mgrid-y-1 mgrid-width-3 mgrid-height-2 sgrid-x-1 sgrid-y-6 sgrid-width-3 sgrid-height-2">
+    <img src="./media/hexabeat/005.jpg" alt="HexaBeat close-up on the sequencer algorithms. Each algorithm has a title and a tiny icon representing the sequence it generates." class="mgrid-x-5 mgrid-y-7 mgrid-width-4 mgrid-height-2 sgrid-x-2 sgrid-y-10 sgrid-width-3 sgrid-height-2">
+    <img src="./media/hexabeat/beats.svg" alt="HexaBeat's algorithm icons, each giving a visual cue of the sequence pattern they generate." class="mgrid-x-8 mgrid-y-5 mgrid-width-1 mgrid-height-2 sgrid-x-4 sgrid-y-7 sgrid-width-1 sgrid-height-2">
+    <img src="./media/hexabeat/006.jpg" alt="Akai MPK Mini control interface to manipulate HexaBeat tracks." class="mgrid-x-1 mgrid-y-8 mgrid-width-4 mgrid-height-2 sgrid-x-1 sgrid-y-12 sgrid-width-3 sgrid-height-2">
+    <img src="./media/hexabeat/track_control.png" alt="Close-up of a HexaBeat track. A mix of brutalist and futuristic design showing volume, solo/isolate toggle, and audio filter controls." class="shadowbox shadow-close mgrid-x-3 mgrid-y-6 mgrid-width-4 mgrid-height-1 sgrid-x-1 sgrid-y-9 sgrid-width-4 sgrid-height-1">
+    <video src="./media/hexabeat/sequencer.mp4" alt="Close-up animation of a HexaBeat track sequencer running." class="mgrid-x-1 mgrid-y-5 mgrid-width-2 mgrid-height-1 sgrid-x-3 sgrid-y-14 sgrid-width-2 sgrid-height-1" muted="" autoplay="" loop="" style="box-sizing: border-box; padding: 8px; background: black;"></video>
+  </div>
+
+  <!-- graxel -->
+  <div data-fg="#ffffff" data-bg="#aaadbc" class="grid mgrid-size-7 sgrid-size-8"> 
+    <div class="text mgrid-x-2 mgrid-y-1 mgrid-width-3 mgrid-height-2 lgrid-x-1 lgrid-y-3 lgrid-width-1 lgrid-height-1 sgrid-x-1 sgrid-y-2 sgrid-width-2 sgrid-height-2">
+      <h2>graxel</h2>
+      <p>Tiny mobile zen-garden with pixels</p>
+      <p><a href="https://maxwellito.github.io/graxel" aria-label="Try Graxel" class="card-link">try it</a></p>
+      <p><a href="https://github.com/maxwellito/graxel" aria-label="Graxel source code" class="card-link">source code</a></p>
+    </div>
+    <span class="hey-screen-reader">
+      Graxel is a mobile pixel editor designed for doodling and relaxing. 
+      Like in any form of art, constraints define the style. 
+      Here, the constraints are a 21x21 pixel grid, black and white only, with an uneditable base pattern.
+      The canvas is an SVG, similar to Triangulart. Using SVG makes it easier to edit and capture user input. 
+      To ensure perfect rendering, the editor scales to the closest integer ratio so that pixels are whole numbers, avoiding unwanted black lines between pixels.
+      The UI provides three actions:
+      <ul>
+        <li>reset: clears the canvas</li>
+        <li>random: fills the canvas randomly</li>
+        <li>share: opens the share interface</li>
+      </ul>
+      To generate visually pleasing results on each attempt, the code randomly fills 1/8 of the canvas and mirrors it symmetrically across the entire grid. Why does this look good? Two principles explain it:
+      <ol>
+        <li>Symmetry: a fundamental principle for aesthetic appeal.</li>
+        <li>Content density: the distribution of pixels matters. Even if the design is abstract or imperfect, a balanced density of filled space (about 50% on average) produces visually pleasing patterns. The base pattern ensures this balance, varying between 25% when empty and 75% when full.</li>
+      </ol>
+      This was the first time I managed to turn randomness into consistent beauty. 
+      Finally, the share/remix feature allows users to share their creations via URL and let others remix them.
+      Feel free to try Graxel. The source code is available on GitHub.
+      Bonus: if you hit the random button too often, it might just come alive.
+    </span>
+    <img src="./media/graxel/cover.gif" alt="Loop of pixel designs generated with Graxel" class="mgrid-x-5 mgrid-y-1 mgrid-width-3 mgrid-height-3 sgrid-x-1 sgrid-y-5 sgrid-width-3 sgrid-height-3">
+    <img src="./media/graxel/scan_004.jpg" alt="Photo of a smartphone running Graxel" class="mgrid-x-2 mgrid-y-3 mgrid-width-2 mgrid-height-3 sgrid-x-3 sgrid-y-2 sgrid-width-2 sgrid-height-3">
+    <img src="./media/graxel/symmetry.png" alt="Three Graxel grids showing pattern generation: left shows the base grid, middle shows 1/8 randomly filled, right shows the pattern mirrored across the grid" class="mgrid-x-4 mgrid-y-5 mgrid-width-5 mgrid-height-2 sgrid-x-2 sgrid-y-1 sgrid-width-3 sgrid-height-1" style="object-fit: contain; background: black;">
+  </div>
+
+  <footer data-fg="#ffffff" data-bg="#aaadbc" class="grid mgrid-size-2 sgrid-size-3"> 
+    <img src="./media/unclassified/maxwellito.logo.revert.svg" alt="maxwellito logo" class="mgrid-x-2 mgrid-y-2 mgrid-width-1 mgrid-height-1 sgrid-x-4 sgrid-y-1 sgrid-width-1 sgrid-height-1">
+    <div class="text keep-in-grid mgrid-x-3 mgrid-y-1 mgrid-width-6 mgrid-height-2 sgrid-x-1 sgrid-y-2 sgrid-width-4 sgrid-height-2">
+      <p>
+        Hi, my name is max,<br>
+        Based in London, Software engineer during the day, maker of the useless at night. Passionate about code and visual arts. Always curious about new areas to explore.<br>
+        I wish I could do stupid things for a living.
+      </p>
+      <p>
+        <a href="mailto:max.duluc@gmail.com">email</a> / 
+        <a href="https://github.com/maxwellito">github</a> / 
+        <a href="https://mastodon.social/@maxwellito">mastodon</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

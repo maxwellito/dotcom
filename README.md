@@ -1,5 +1,3 @@
-# maxwellito.com [v3]
+# maxwellito v4
 
-My personal website : [maxwellito.com](http://maxwellito.com)
-
-Built with Jekyll. Ignore grammar mistakes, they are too many.
+Less faf, more visual.

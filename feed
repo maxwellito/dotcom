@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maxwellito.com</title>
+    <description>Maker of the useless</description>
+    <link>https://maxwellito.com</link>
+      <item>
+        <title>Goodbye!</title>
+        <description>
+          &lt;p&gt;After 5 years without any updates, it's time to pull the plug.&lt;/p&gt;
+          &lt;p&gt;It's not a complete goodbye but this end of this feed. I stopped blogging long time ago and moved away from many social media except for one : mastodon. This platform is not wildly popular, but it's a blessing that it exists today. Fully (and really) decentralised, full of passionate folks and open. The vibe is close to the early days of internet. This is where the difference is, unlike giant social media platforms, this one is accessible for anyone to access without an account. Which, like blogging platform back in the days, let users post stuff and let people visit it without creating an account or name your first child Zuckerberg. And guess what?? They offer RSS feed!!&lt;/p&gt;
+          &lt;p&gt;Here are all the links you need. Feel free to follow me on mastodon, join the weirdos, it's a fun place. For those who follow the RSS feed, don't worry I'm not a compulsive poster.&lt;/p&gt;
+          &lt;ul&gt;
+            &lt;li&gt;&lt;a href=&quot;https://mastodon.social/@maxwellito&quot;&gt;my Mastodon profile&lt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://mastodon.social/@maxwellito.rss&quot;&gt;my Mastodon profile RSS feed&lt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;https://maxwellito.com&quot;&gt;my new website&lt; (same address but refreshed)&lt;/li&gt;
+          &lt;/ul&gt;
+          &lt;p&gt;&lt;i&gt;Love, &lt;/i&gt;&lt;br/&gt;- Max&lt;/p&gt;
+        </description>
+
+        <pubDate>2025-12-18T12:00:00+00:00</pubDate>
+        <link>https://maxwellito.com/</link>
+        <guid isPermaLink="true">https://maxwellito.com/</guid>
+      </item>
+  </channel>
+</rss>
